@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Shizuru&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 50px 50px;
+    width: 200px;
+    box-shadow: 5px 5px 20px 17px gray;
+}
+
+ul li{
+    list-style:none;
+    background: #ff540e;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-bottom: 3px solid #d41a1a;
+}
+
+ul li:hover {
+    background: #ff9569;
+}
+
+ul li:last-child {
+    border:none;
+}
+
+ul li a {
+    display: block;
+    font-family: 'Shizuru', cursive;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 8px 0;
+    height: 100%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+ul li a::after {
+    content: ' ☛︎';
+}
+
+ul li a:hover::after {
+    content: ' ☛︎';
+    color: yellow;
+}
+
+ul li a::before {
+    content: '❤  ︎';
+}
+
+ul li a:hover::before {
+    content: '❤  ︎';
+    color: red;
+}
